@@ -18,7 +18,7 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 12; $i++) : ?>
-                    <div class="col col1">
+                    <div class="col-lg-1">
                         <div class="box-custom">
                             .col1
                         </div>
@@ -31,7 +31,7 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 6; $i++) : ?>
-                    <div class="col col2">
+                    <div class="col-lg-2">
                         <div class="box-custom">
                             .col2
                         </div>
@@ -43,7 +43,7 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 4; $i++) : ?>
-                    <div class="col col3">
+                    <div class="col-lg-3">
                         <div class="box-custom">
                             .col3
                         </div>
@@ -55,7 +55,7 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 3; $i++) : ?>
-                    <div class="col col4">
+                    <div class="col-md-4">
                         <div class="box-custom">
                             .col4
                         </div>
@@ -66,17 +66,17 @@
 
             <!-- row -->
             <div class="row">
-                <div class="col col5">
+                <div class="col-sm-5">
                     <div class="box-custom">
                         .col5
                     </div>
                 </div>
-                <div class="col col5">
+                <div class="col-sm-5">
                     <div class="box-custom">
                         .col5
                     </div>
                 </div>
-                <div class="col col2">
+                <div class="col-sm-2">
                     <div class="box-custom">
                         .col2
                     </div>
@@ -87,12 +87,22 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 2; $i++) : ?>
-                    <div class="col col6">
+                    <div class="col-xs-6">
                         <div class="box-custom">
                             .col6
                         </div>
                     </div>
                 <?php endfor; ?>
+            </div>
+            <!-- /row -->
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="box-custom">
+                        .col12
+                    </div>
+                </div>
             </div>
             <!-- /row -->
 
@@ -102,7 +112,7 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 6; $i++) : ?>
-                    <div class="col col1 offset1">
+                    <div class="col-lg-1 offset1">
                         <div class="box-custom">
                             .offset1
                         </div>
@@ -114,7 +124,7 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 3; $i++) : ?>
-                    <div class="col col2 offset2">
+                    <div class="col-lg-2 offset2">
                         <div class="box-custom">
                             .offset2
                         </div>
@@ -126,12 +136,52 @@
             <!-- row -->
             <div class="row">
                 <?php for ($i=0; $i < 2; $i++) : ?>
-                    <div class="col col3 offset3">
+                    <div class="col-lg-3 offset3">
                         <div class="box-custom">
                             .offset3
                         </div>
                     </div>
                 <?php endfor; ?>
+            </div>
+            <!-- /row -->
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-lg-4 offset4">
+                    <div class="box-custom">
+                        .offset4
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box-custom">
+                        .col4
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-lg-5 offset5">
+                    <div class="box-custom">
+                        .offset5
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="box-custom">
+                        .col2
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-lg-6 offset6">
+                    <div class="box-custom">
+                        .offset6
+                    </div>
+                </div>
             </div>
             <!-- /row -->
 
