@@ -1,0 +1,67 @@
+/* CSS GERAL */
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row {
+  *zoom: 1;
+}
+
+.col {
+    float: left;
+	*display: inline-block;
+    padding: 0 14px;
+    margin-bottom: 10px;
+}
+
+.col1 {
+    width: 8.33%;
+}
+
+.col2 {
+    width: 16.66%;
+}
+
+.col3 {
+    width: 24.99%;
+}
+
+.col4 {
+    width: 33.32%;
+}
+
+.col5 {
+    width: 41.65%;
+}
+
+.col6 {
+    width: 49.98%;
+}
+
+.col7 {
+    width: 58.31%;
+}
+
+.col8 {
+    width: 66.64%;
+}
+
+.col9 {
+    width: 74.97%;
+}
+
+.col10 {
+    width: 83.3%;
+}
+
+.col11 {
+    width: 91.63%;
+}
+
+.col12 {
+    width: 100%;
+}
