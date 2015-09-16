@@ -65,3 +65,50 @@
 .col12 {
     width: 100%;
 }
+
+
+/* OFFSETs */
+
+.offset1 {
+    margin-left: 8.33%;
+}
+
+.offset2 {
+    margin-left: 16.66%;
+}
+
+.offset3 {
+    margin-left: 24.99%;
+}
+
+.offset4 {
+    margin-left: 33.32%;
+}
+
+.offset5 {
+    margin-left: 41.65%;
+}
+
+.offset6 {
+    margin-left: 49.98%;
+}
+
+.offset7 {
+    margin-left: 58.31%;
+}
+
+.offset8 {
+    margin-left: 66.64%;
+}
+
+.offset9 {
+    margin-left: 74.97%;
+}
+
+.offset10 {
+    margin-left: 83.3%;
+}
+
+.offset11 {
+    margin-left: 91.63%;
+}
