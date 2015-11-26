@@ -1,4 +1,10 @@
 /* CSS GERAL */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .row:before,
 .row:after {
   content: "";
@@ -11,7 +17,7 @@
 
 .row {
   *zoom: 1;
-  margin: 0 -14px;
+  margin: 0 -21px 0 -10px;
 }
 
 /*--------------------------------------------------------------
@@ -21,15 +27,17 @@
 .col-sm-1, .col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,
 .col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,
 .col-lg-1, .col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
-    padding: 0 14px;
-    margin-bottom: 10px;
-    display: inline-block;
-    vertical-align: top;
+    padding: 0 15px;
+    margin: 0 0 10px -4px;
 }
 
 /*--------------------------------------------------------------
     FORMATAÇÃO CLASSE XS
 --------------------------------------------------------------*/
+.col-xs-1, .col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12 {
+    display: inline-block;
+    vertical-align: top;
+}
 
 .col-xs-1 { width: 8.33%; }
 .col-xs-2 { width: 16.66%; }
@@ -45,9 +53,31 @@
 .col-xs-12 { width: 100%; }
 
 /*--------------------------------------------------------------
+    OFFSETs xs
+--------------------------------------------------------------*/
+.offset-xs-1 { margin-left: 8.08%; }
+.offset-xs-2 { margin-left: 16.47%; }
+.offset-xs-3 { margin-left: 24.85%; }
+.offset-xs-4 { margin-left: 33.32%; }
+.offset-xs-5 { margin-left: 41.65%; }
+.offset-xs-6 { margin-left: 49.98%; }
+.offset-xs-7 { margin-left: 58.31%; }
+.offset-xs-8 { margin-left: 66.64%; }
+.offset-xs-9 { margin-left: 74.97%; }
+.offset-xs-10 { margin-left: 83.3%; }
+.offset-xs-11 { margin-left: 91.63%; }
+
+
+
+/*--------------------------------------------------------------
     MEDIA QUERIES
 --------------------------------------------------------------*/
 @media screen and (min-width: 768px){
+
+    .col-sm-1, .col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 {
+        display: inline-block;
+        vertical-align: top;
+    }
 
     .col-sm-1 { width: 8.33%; }
     .col-sm-2 { width: 16.66%; }
@@ -61,9 +91,29 @@
     .col-sm-10 { width: 83.3%; }
     .col-sm-11 { width: 91.63%; }
     .col-sm-12 { width: 100%; }
+
+    /*--------------------------------------------------------------
+        OFFSETs sm
+    --------------------------------------------------------------*/
+    .offset-sm-1 { margin-left: 8.08%; }
+    .offset-sm-2 { margin-left: 16.47%; }
+    .offset-sm-3 { margin-left: 24.85%; }
+    .offset-sm-4 { margin-left: 33.32%; }
+    .offset-sm-5 { margin-left: 41.65%; }
+    .offset-sm-6 { margin-left: 49.98%; }
+    .offset-sm-7 { margin-left: 58.31%; }
+    .offset-sm-8 { margin-left: 66.64%; }
+    .offset-sm-9 { margin-left: 74.97%; }
+    .offset-sm-10 { margin-left: 83.3%; }
+    .offset-sm-11 { margin-left: 91.63%; }
 }
 
 @media screen and (min-width: 992px){
+
+    .col-md-1, .col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+        display: inline-block;
+        vertical-align: top;
+    }
 
     .col-md-1 { width: 8.33%; }
     .col-md-2 { width: 16.66%; }
@@ -77,9 +127,30 @@
     .col-md-10 { width: 83.3%; }
     .col-md-11 { width: 91.63%; }
     .col-md-12 { width: 100%; }
+
+    /*--------------------------------------------------------------
+        OFFSETs md
+    --------------------------------------------------------------*/
+    .offset-md-1 { margin-left: 8.08%; }
+    .offset-md-2 { margin-left: 16.47%; }
+    .offset-md-3 { margin-left: 24.85%; }
+    .offset-md-4 { margin-left: 33.32%; }
+    .offset-md-5 { margin-left: 41.65%; }
+    .offset-md-6 { margin-left: 49.98%; }
+    .offset-md-7 { margin-left: 58.31%; }
+    .offset-md-8 { margin-left: 66.64%; }
+    .offset-md-9 { margin-left: 74.97%; }
+    .offset-md-10 { margin-left: 83.3%; }
+    .offset-md-11 { margin-left: 91.63%; }
 }
 
 @media screen and (min-width: 1200px){
+
+    .col-lg-1, .col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12,
+    .offset1 {
+        display: inline-block;
+        vertical-align: top;
+    }
 
     .col-lg-1 { width: 8.33%; }
     .col-lg-2 { width: 16.66%; }
@@ -95,17 +166,17 @@
     .col-lg-12 { width: 100%; }
 
     /*--------------------------------------------------------------
-        OFFSETs
+        OFFSETs lg
     --------------------------------------------------------------*/
-    .offset1 { margin-left: 8.33%; }
-    .offset2 { margin-left: 16.66%; }
-    .offset3 { margin-left: 24.99%; }
-    .offset4 { margin-left: 33.32%; }
-    .offset5 { margin-left: 41.65%; }
-    .offset6 { margin-left: 49.98%; }
-    .offset7 { margin-left: 58.31%; }
-    .offset8 { margin-left: 66.64%; }
-    .offset9 { margin-left: 74.97%; }
-    .offset10 { margin-left: 83.3%; }
-    .offset11 { margin-left: 91.63%; }
+    .offset-lg-1 { margin-left: 8.08%; }
+    .offset-lg-2 { margin-left: 16.47%; }
+    .offset-lg-3 { margin-left: 24.85%; }
+    .offset-lg-4 { margin-left: 33.32%; }
+    .offset-lg-5 { margin-left: 41.65%; }
+    .offset-lg-6 { margin-left: 49.98%; }
+    .offset-lg-7 { margin-left: 58.31%; }
+    .offset-lg-8 { margin-left: 66.64%; }
+    .offset-lg-9 { margin-left: 74.97%; }
+    .offset-lg-10 { margin-left: 83.3%; }
+    .offset-lg-11 { margin-left: 91.63%; }
 }

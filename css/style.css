@@ -3,12 +3,6 @@ body {
     font-size: 14px;
 }
 
-/* A LARGURA É PARA 1280, MAS O A LARGURA A BAIXO ESTA CONPENSANDO O ESPAÇAMENTO DAS COLUNAS */
-.wrapper {
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
 .box-custom {
     text-align: center;
     padding: 15px;
