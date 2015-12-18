@@ -25,23 +25,10 @@
             <!-- container -->
             <div class="container">
 
-                <div class="row">
-                    <div class="col-sm-4 col-md-6 col-lg-4">
-                        <div class="box-custom">.col1</div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-4">
-                        <div class="box-custom">.col1</div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-12 col-lg-4">
-                        <div class="box-custom">.col1</div>
-                    </div>
-                </div>
-
-
                 <!-- row -->
                 <div class="row">
                     <?php for ($i=0; $i < 12; $i++) : ?>
-                        <div class="col-lg-1">
+                        <div class="col-md-1 col-lg-1">
                             <div class="box-custom">
                                 .col1
                             </div>
@@ -50,11 +37,10 @@
                 </div>
                 <!-- /row -->
 
-
                 <!-- row -->
                 <div class="row">
                     <?php for ($i=0; $i < 6; $i++) : ?>
-                        <div class="col-lg-2">
+                        <div class="col-md-2 col-lg-2">
                             <div class="box-custom">
                                 .col2
                             </div>
@@ -66,7 +52,7 @@
                 <!-- row -->
                 <div class="row">
                     <?php for ($i=0; $i < 4; $i++) : ?>
-                        <div class="col-lg-3">
+                        <div class="col-md-3 col-lg-3">
                             <div class="box-custom">
                                 .col3
                             </div>
@@ -78,7 +64,7 @@
                 <!-- row -->
                 <div class="row">
                     <?php for ($i=0; $i < 3; $i++) : ?>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-lg-4">
                             <div class="box-custom">
                                 .col4
                             </div>
@@ -89,17 +75,17 @@
 
                 <!-- row -->
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-md-5 col-lg-5">
                         <div class="box-custom">
                             .col5
                         </div>
                     </div>
-                    <div class="col-sm-5">
+                    <div class="col-md-5 col-lg-5">
                         <div class="box-custom">
                             .col5
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-md-2 col-lg-2">
                         <div class="box-custom">
                             .col2
                         </div>
@@ -109,13 +95,91 @@
 
                 <!-- row -->
                 <div class="row">
-                    <?php for ($i=0; $i < 2; $i++) : ?>
-                        <div class="col-xs-6">
-                            <div class="box-custom">
-                                .col6
-                            </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="box-custom">
+                            .col6
                         </div>
-                    <?php endfor; ?>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="box-custom">
+                            .col6
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-7 col-lg-7">
+                        <div class="box-custom">
+                            .col7
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-5">
+                        <div class="box-custom">
+                            .col5
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-8 col-lg-8">
+                        <div class="box-custom">
+                            .col8
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4">
+                        <div class="box-custom">
+                            .col4
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-9 col-lg-9">
+                        <div class="box-custom">
+                            .col9
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3">
+                        <div class="box-custom">
+                            .col3
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-10 col-lg-10">
+                        <div class="box-custom">
+                            .col10
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2">
+                        <div class="box-custom">
+                            .col2
+                        </div>
+                    </div>
+                </div>
+                <!-- /row -->
+
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-11 col-lg-11">
+                        <div class="box-custom">
+                            .col11
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-lg-1">
+                        <div class="box-custom">
+                            .col1
+                        </div>
+                    </div>
                 </div>
                 <!-- /row -->
 
